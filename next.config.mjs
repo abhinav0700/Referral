@@ -30,7 +30,7 @@ const nextConfig = {
       tls: false,
     }
     return config
-  },
+  }
 }
 
 mergeConfig(nextConfig, userConfig)
