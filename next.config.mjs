@@ -31,16 +31,6 @@ const nextConfig = {
     }
     return config
   },
-  // Add CSS handling
-  transpilePackages: ['@radix-ui/react-icons'],
-  // Ensure CSS is properly processed
-  optimizeCss: true,
-  // Add CSS configuration
-  css: {
-    modules: {
-      localsConvention: 'camelCase',
-    },
-  },
   // Add output configuration
   output: 'standalone',
   // Add asset handling
